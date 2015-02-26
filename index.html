@@ -17,12 +17,12 @@
         }
         body {
             font-family: 'Noto Serif', serif;
-            background: #F5F5F5;
-            margin-top: 0px;
+            background: #F9F9F9;
+            margin: 0 0 0 0;
+            text-align: center;
         }
         h2 {
             line-height: 1.2;
-            font-size: 16;
         }
         header li {
             display: inline-block;
@@ -36,18 +36,30 @@
                 background: rgba(0,0,0,0.5);
             }  */
 
-        /*a {*/
-            /*color: blue;*/
-        /*}*/
+        a {
+            color: #333333;
+            text-decoration: none;
+        }
+
+        a:hover, a:focus {
+            color: #111111;
+            /*text-decoration: underline;*/
+        }
+
 
         article {
             max-width: 700px;
             padding: 15px;
-            margin: 0 auto;
             line-height: 1.6;
             font-size: 18px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
         }
 
+        article ul{
+            list-style: none;
+        }
 
         .mugshot {
             margin: 0px 0px 0px 0px;
@@ -68,13 +80,24 @@
             -webkit-font-smoothing: antialiased;
         }
 
-        @media (max-width: 700px) {
+        .projectlist li {
+            display: inline-block;
+            padding: 20px 20px 20px 20px;
 
-            li {
-                display: block;
-                padding: 5px;
-            }
         }
+        
+        .projectlist img {
+            height: 100px;
+            width: 202px;
+        }
+
+        /*@media (max-width: 700px) {*/
+
+            /*li {*/
+                /*display: block;*/
+                /*padding: 5px;*/
+            /*}*/
+        /*}*/
     </style>
 </head>
 <body>
@@ -99,26 +122,57 @@
 
 <article>
     <h2>Projects</h2>
-    <ul>
+    <ul class="projectlist">
         <!-- todo: add some screenshot icons of these sites -->
-        <li>iansails.com</li>
-        <li>iancodes.com</li>
-        <li>Clothesline Club</li>
-        <li>Daft Labs</li>
-        <li>passwordsforhumans.com</li>
+        <li>
+            <a href="http://iansails.com">
+                <img src="img/iansails.jpg" />
+                <br/>iansails.com
+            </a>
+        </li>
+        <li>
+            <a href="http://iancodes.com">
+                <img src="img/iancodes.jpg" />
+                <br/>iancodes.com
+            </a>
+        </li>
+        <li>
+            <a href="http://dressedme.com/dressedme">
+                <img src="img/dressedme2.jpg" />
+                <br/>DressedMe / Clothesline Club
+            </a>
+        </li>
+        <li>
+            <a href="http://daftlabs.com">
+                <img src="img/daftlabs.png" />
+                <br/>Daft Labs
+        </a>
+        </li>
+        <li>
+            <a href="http://passwordsforhumans.com">
+                <img src="img/passwordsforhumans.jpg" />
+                <br/>passwordsforhumans.com
+        </a>
+        </li>
         <li>Go Outside Today</li>
     </ul>
     <!-- <p>Looking for client projects in the Boston MA Area<p> -->
     <!-- 	<p></p> -->
 </article>
+<div style="background-color: #EEEEEE">
 <article>
     <h2>Where I've Worked</h2>
     <ul>
-        <li>Dealer.com</li>
-        <!--todo steal DDC badge from Anthony B-->
-        <li>B-Line Medical</li>
+        <li>
+            <!--DDC thanks Anthony B!-->
+            <img width="500" height="156" src="img/badge-ddc.png"><br>Dealer.com (2008-2014)
+        </li>
+        <li></li>
+        <li><br>B-Line Medical (2010)</li>
     </ul>
 </article>
+</div>
+<div style="background-color: #DDDDDD">
 <article>
     <h2>Ask Me About</h2>
     <ul>
@@ -131,5 +185,6 @@
     ian(a)iansails.com
 
 </article>
+</div>
 </body>
 </html>
