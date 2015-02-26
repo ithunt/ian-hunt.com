@@ -1,45 +1,43 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Ian Hunt</title>
-	<link href='http://fonts.googleapis.com/css?family=Noto+Sans|Noto+Serif' rel='stylesheet' type='text/css'>
+    <title>Ian Hunt</title>
+    <link href='http://fonts.googleapis.com/css?family=Noto+Sans|Noto+Serif' rel='stylesheet' type='text/css'>
 
-	<style>
-	    header {
-	    	padding-top: 15px;
-	    	margin-top: 0px;
-	    	border-top: 0px;
+    <style>
+        header {
+            padding-top: 15px;
+            margin-top: 0px;
+            border-top: 0px;
             text-align: center;
             /*font-family: 'Noto Sans', sans-serif;*/
-/*            color: #AAA;*/
+            /*            color: #AAA;*/
             background-color: #EEEEF1;
         }
         body {
-        	font-family: 'Noto Serif', serif;
-        	background: #F5F5F5;
-        	
-        	margin-top: 0px;
-      	}
-      	h2 {
-      		line-height: 1.2;
-      		font-size: 16;
-      	}
-        /*ul {
-            padding: 10px;
-            background: rgba(0,0,0,0.5);
+            font-family: 'Noto Serif', serif;
+            background: #F5F5F5;
+            margin-top: 0px;
         }
-        li {
+        h2 {
+            line-height: 1.2;
+            font-size: 16;
+        }
+        header li {
             display: inline;
-            padding: 0px 10px 0px 10px;
-        }*/
-        a {
-            color: blue;
+            padding: 0px 10px 0px 15px;
         }
-        img {
-            margin: 40px 0px 0px 0px;
-            /*border: 7px solid rgba(0,0,255,0.5);*/
-            border-radius: 20px;
+        header ul {
+            padding: 20px;
         }
+            /*ul {
+                padding: 10px;
+                background: rgba(0,0,0,0.5);
+            }  */
+
+        /*a {*/
+            /*color: blue;*/
+        /*}*/
 
         article {
             max-width: 700px;
@@ -49,6 +47,17 @@
             font-size: 18px;
         }
 
+
+        .mugshot {
+            margin: 0px 0px 0px 0px;
+
+            /*border: 1px black;*/
+            border-radius: 60px;
+            height: 120px;
+            width: 110px;
+
+        }
+
         @media (max-width: 700px) {
 
             li {
@@ -56,57 +65,58 @@
                 padding: 5px;
             }
         }
-        </style>
+    </style>
 </head>
 <body>
-	<header>
-		<h1 style="margin-top:0px">Ian Hunt</h1>
-<!-- 		<div>
-			<ul style="">
-				<li style="display: inline"><a href="http://iansails.com">Sailor</a></li>
-				<li style="display: inline"><a href="http://linkedin.com/ian.hunt">Software Engineer</a></li>
-	    </div> -->
-	<!-- Dirty Mug Shot Goes here -->
+<header>
+    <img class="mugshot" src="img/ianhead1.jpg" />
+    <h1 style="margin-top:15px;margin-bottom: 5px">Ian Hunt</h1>
 
-	<!-- get a static generator - lavender / jade are pretty cool -->
-	<!-- use haskell to interpret jade into html -->
-		<article>
-		<hr>
-<!-- 	<h2 style="line-height:1.2;">The Man</h2> -->
-	<!-- <p> -->
-		Software engineer with a passion for crafting beautiful, functional, and scalable web applications. Currently, a development consultant for small startups in New England. When not behind his terminal you can find him outside <a href="http://iansails.com">sailing</a>, hiking, or skiing the green mountains.
-	<!-- </p> -->
-	<hr>
-	<!-- this is a good place for social buttons -->
-	</article>
-	</header>
+    <article>
+        <hr>
+        Software engineer with a passion for crafting beautiful, functional, and scalable web applications. Currently, a development consultant for small startups in New England. When not behind his terminal you can find him outside <a href="http://iansails.com">sailing</a>, hiking, or skiing the green mountains.
+        <hr>
+        <!-- this is a good place for social buttons -->
+        <ul style="display: inline">
+            <li>GH</li>
+            <li>LN</li>
+            <li>SO</li>
+            <li>EM</li>
+        </ul>
+    </article>
+</header>
 
-	<article>
-
-	<h2>Projects</h2>
-	<ul>
-		<!-- todo: add some screenshot icons of these sites -->
-		<li>iansails.com</li>
-		<li>iancodes.com</li>
-		<li>Clothesline Club</li>
-		<li>Daft Labs</li>
-		<li>passwordsforhumans.com</li>
-		<li>Go Outside Today</li>
-	</ul>
-	<!-- <p>Looking for client projects in the Boston MA Area<p> -->
-<!-- 	<p></p> -->
-	</article>
-	<article>			
-	<h2>Ask Me About</h2>
-	<ul>
-		<li>Web Development for your idea - Linked in or iancodes marketing site for my services?</li>
-		<li>Google Adwords</li>
-		<li>Java</li>
-		<li>Sailing on boats (iansails resume)</li>
-		<li></li>
-
-	<p>Looking for client projects in the Boston MA Area<p>
-	</article>	
-<body>
-
+<article>
+    <h2>Projects</h2>
+    <ul>
+        <!-- todo: add some screenshot icons of these sites -->
+        <li>iansails.com</li>
+        <li>iancodes.com</li>
+        <li>Clothesline Club</li>
+        <li>Daft Labs</li>
+        <li>passwordsforhumans.com</li>
+        <li>Go Outside Today</li>
+    </ul>
+    <!-- <p>Looking for client projects in the Boston MA Area<p> -->
+    <!-- 	<p></p> -->
+</article>
+<article>
+    <h2>Where I've Worked</h2>
+    <ul>
+        <li>Dealer.com</li>
+        <!--todo steal DDC badge from Anthony B-->
+        <li>B-Line Medical</li>
+    </ul>
+</article>
+<article>
+    <h2>Ask Me About</h2>
+    <ul>
+        <li>Web Development for your idea - Linked in or iancodes marketing site for my services?</li>
+        <li>Google Adwords</li>
+        <li>Java</li>
+        <li>Sailing on boats (iansails resume)</li>
+        <li></li>
+    </ul>
+</article>
+</body>
 </html>
