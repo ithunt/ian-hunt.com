@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <!--Hello and welcome to the source. Here be dragons and terrible css-->
     <title>Ian Hunt</title>
     <link href='http://fonts.googleapis.com/css?family=Noto+Sans|Noto+Serif' rel='stylesheet' type='text/css'>
 
@@ -24,11 +25,11 @@
             font-size: 16;
         }
         header li {
-            display: inline;
-            padding: 0px 10px 0px 15px;
+            display: inline-block;
+            padding: 0px 10px 0px 10px;
         }
         header ul {
-            padding: 20px;
+            /*padding: 20px;*/
         }
             /*ul {
                 padding: 10px;
@@ -58,6 +59,15 @@
 
         }
 
+        .socialicon {
+            position: relative;
+            line-height: 1;
+            line-weight: normal;
+            top: 1px;
+            display: inline-block;
+            -webkit-font-smoothing: antialiased;
+        }
+
         @media (max-width: 700px) {
 
             li {
@@ -78,10 +88,11 @@
         <hr>
         <!-- this is a good place for social buttons -->
         <ul style="display: inline">
-            <li>GH</li>
-            <li>LN</li>
-            <li>SO</li>
-            <li>EM</li>
+            <li><a href="https://linkedin.com/in/ianthunt"><img class="socialicon" src="img/linkedin.png"></a></li>
+            <li><a href="https://github.com/ithunt"><img class="socialicon" src="img/github.png"></a></li>
+            <li><a href="https://www.goodreads.com/IanHunt"><img class="socialicon" src="img/goodreads.png"></a></li>
+            <li><a href="https://stackoverflow.com/users/363898/ian-t"><img class="socialicon" src="img/stackoverflow.png"> </a></li>
+            <!--<li>EMAIL?</li>-->
         </ul>
     </article>
 </header>
@@ -111,12 +122,14 @@
 <article>
     <h2>Ask Me About</h2>
     <ul>
-        <li>Web Development for your idea - Linked in or iancodes marketing site for my services?</li>
+        <li>Turning your app or business idea into reality</li>
         <li>Google Adwords</li>
-        <li>Java</li>
-        <li>Sailing on boats (iansails resume)</li>
-        <li></li>
+        <li>Application Architecture</li>
+        <li>Sailing on boats</li>
     </ul>
+
+    ian(a)iansails.com
+
 </article>
 </body>
 </html>
