@@ -6,14 +6,23 @@
 
 	<style>
 	    header {
+	    	padding-top: 15px;
+	    	margin-top: 0px;
+	    	border-top: 0px;
             text-align: center;
-            font-family: 'Noto Sans', sans-serif;
+            /*font-family: 'Noto Sans', sans-serif;*/
 /*            color: #AAA;*/
-            background: #CCCCCC);*/
+            background-color: #EEEEF1;
         }
         body {
         	font-family: 'Noto Serif', serif;
-        	background: #EEEEEE
+        	background: #F5F5F5;
+        	
+        	margin-top: 0px;
+      	}
+      	h2 {
+      		line-height: 1.2;
+      		font-size: 16;
       	}
         /*ul {
             padding: 10px;
@@ -33,12 +42,14 @@
         }
 
         article {
-            max-width: 500px;
-            padding: 20px;
+            max-width: 700px;
+            padding: 15px;
             margin: 0 auto;
+            line-height: 1.6;
+            font-size: 18px;
         }
 
-        @media (max-width: 500px) {
+        @media (max-width: 700px) {
 
             li {
                 display: block;
@@ -47,36 +58,46 @@
         }
         </style>
 </head>
-
-<body >
-
-	<br/>
-
-	<div style="font-size: 16px">
-		<div style="line-height:1.6;font-size:18px;color:rgb(68, 68, 68);">
-
-			<header>
-				<h1 style="line-height:1.2;">Ian's Homepage</h1>
-
-		<div>
+<body>
+	<header>
+		<h1 style="margin-top:0px">Ian Hunt</h1>
+<!-- 		<div>
 			<ul style="">
 				<li style="display: inline"><a href="http://iansails.com">Sailor</a></li>
 				<li style="display: inline"><a href="http://linkedin.com/ian.hunt">Software Engineer</a></li>
-	    </div>
-	<!-- blog posts here -->
+	    </div> -->
+	<!-- Dirty Mug Shot Goes here -->
+
 	<!-- get a static generator - lavender / jade are pretty cool -->
-
 	<!-- use haskell to interpret jade into html -->
-
-	<article>
+		<article>
 		<hr>
 <!-- 	<h2 style="line-height:1.2;">The Man</h2> -->
-	<p>I am a software engineer who enjoys creating web applications and solving problems with software. Currently, I do development and consulting for small startups in New England. When not behind my terminal you can find me <a href="http://iansails.com">sailing</a> out on the lake or skiing the green mountains</p>
+	<!-- <p> -->
+		Software engineer with a passion for crafting beautiful, functional, and scalable web applications. Currently, a development consultant for small startups in New England. When not behind his terminal you can find him outside <a href="http://iansails.com">sailing</a>, hiking, or skiing the green mountains.
+	<!-- </p> -->
+	<hr>
+	<!-- this is a good place for social buttons -->
 	</article>
 	</header>
-	<article>	
-	<hr>	
-	<h2 style="line-height:1.2;">Ask Me About</h2>
+
+	<article>
+
+	<h2>Projects</h2>
+	<ul>
+		<!-- todo: add some screenshot icons of these sites -->
+		<li>iansails.com</li>
+		<li>iancodes.com</li>
+		<li>Clothesline Club</li>
+		<li>Daft Labs</li>
+		<li>passwordsforhumans.com</li>
+		<li>Go Outside Today</li>
+	</ul>
+	<!-- <p>Looking for client projects in the Boston MA Area<p> -->
+<!-- 	<p></p> -->
+	</article>
+	<article>			
+	<h2>Ask Me About</h2>
 	<ul>
 		<li>Web Development for your idea - Linked in or iancodes marketing site for my services?</li>
 		<li>Google Adwords</li>
@@ -85,28 +106,7 @@
 		<li></li>
 
 	<p>Looking for client projects in the Boston MA Area<p>
-	</article>
-	<article>	
-
-	<h2 style="line-height:1.2;">Projects</h2>
-	<ul>
-		<li>iansails.com</li>
-		<li>iancodes.com</li>
-		<li>linkedin</li>
-		<li>Clothesline Club</li>
-		<li>Daft Labs</li>
-		<li>passwordsforhumans.com</li>
-
-	<p>Looking for client projects in the Boston MA Area<p>
-	<p></p>
-	</article>
-	<div style="margin:0px;padding:0px;border:none;position:absolute;width:10px;height:10px;top:-100px;left:-100px;"/></div>
-	</div>
-	</div>
-
-
-
-	
+	</article>	
 <body>
 
 </html>
