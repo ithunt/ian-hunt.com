@@ -1,2 +1,2 @@
 # Ian-Hunt.com
-Personal Website
+[Visit My Personal Website](http://ian-hunt.com/ "ian-hunt.com")
