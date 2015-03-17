@@ -89,15 +89,17 @@
 
             display: inline-block;
             padding: 20px 20px 20px 20px;
-            width: 300px;
+            width: 205px;
+            /*text-align: center;*/
         }
 
-        .projectlist li:nth-child(odd) {
-            text-align: right;
-        }
-        .projectlist li:nth-child(even) {
-            text-align: left;
-        }
+        /*this was cool but not working out stylistically*/
+        /*.projectlist li:nth-child(odd) {*/
+            /*text-align: right;*/
+        /*}*/
+        /*.projectlist li:nth-child(even) {*/
+            /*text-align: left;*/
+        /*}*/
         .projectlist img {
 
             height: 100px;
@@ -122,8 +124,8 @@
         <hr>
         Software engineer with a passion for crafting beautiful, functional, and scalable web applications. Currently, a development consultant for small startups in New England. When not behind his terminal you can find him outside <a href="http://iansails.com">sailing</a>, hiking, or skiing the green mountains.
         <hr>
-        <!-- this is a good place for social buttons -->
-        <ul class="socialiconlist" style="display: inline">
+        <div style="text-align: center">
+        <ul style="display: inline">
             <li><a href="https://linkedin.com/in/ianthunt">             <img src="img/linkedin.png">        </a></li>
             <li><a href="https://github.com/ithunt">                    <img src="img/github.png">          </a></li>
             <li><a href="https://twitter.com/ithunt">                   <img src="img/twitter.png">         </a></li>
@@ -131,6 +133,7 @@
             <li><a href="https://stackoverflow.com/users/363898/ian-t"> <img src="img/stackoverflow.png">   </a></li>
             <!--<li>EMAIL?</li>-->
         </ul>
+        </div>
     </article>
 </header>
 
